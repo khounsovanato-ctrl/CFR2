@@ -1,0 +1,84 @@
+{
+  "motoGPAccessories": [
+    {
+      "id": 1,
+      "name": "MotoGP Carbon Racing Helmet",
+      "category": "Helmet",
+      "price": 250,
+      "image": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?q=80&w=1200&auto=format&fit=crop",
+      "description": "High-performance carbon fiber helmet designed for professional MotoGP racing with aerodynamic airflow system."
+    },
+    {
+      "id": 2,
+      "name": "Racing Leather Jacket Pro",
+      "category": "Jacket",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1520975922284-9d63b1c9f2d6?q=80&w=1200&auto=format&fit=crop",
+      "description": "Premium black and red leather racing jacket built for speed, safety, and comfort on the track."
+    },
+    {
+      "id": 3,
+      "name": "MotoGP Grip Racing Gloves",
+      "category": "Gloves",
+      "price": 75,
+      "image": "https://images.unsplash.com/photo-1517846693594-1567da72af75?q=80&w=1200&auto=format&fit=crop",
+      "description": "Anti-slip racing gloves with reinforced protection for high-speed MotoGP riding."
+    },
+    {
+      "id": 4,
+      "name": "Track Performance Boots",
+      "category": "Boots",
+      "price": 160,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop",
+      "description": "Durable MotoGP boots with ankle protection and advanced grip for racing stability."
+    },
+    {
+      "id": 5,
+      "name": "Carbon Knee Protection Guard",
+      "category": "Protection",
+      "price": 95,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1200&auto=format&fit=crop",
+      "description": "Lightweight carbon knee guards designed for extreme racing protection."
+    },
+    {
+      "id": 6,
+      "name": "Racing Backpack Moto Edition",
+      "category": "Bag",
+      "price": 65,
+      "image": "https://images.unsplash.com/photo-1526481280695-3c687fd5432c?q=80&w=1200&auto=format&fit=crop",
+      "description": "Premium waterproof backpack designed for MotoGP riders and travel convenience."
+    },
+    {
+      "id": 7,
+      "name": "MotoGP Racing Sunglasses",
+      "category": "Eyewear",
+      "price": 45,
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=1200&auto=format&fit=crop",
+      "description": "Stylish UV-protected sunglasses built for riders and street racing lifestyle."
+    },
+    {
+      "id": 8,
+      "name": "Exhaust Heat Shield Cover",
+      "category": "Accessories",
+      "price": 110,
+      "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1200&auto=format&fit=crop",
+      "description": "Heat-resistant MotoGP exhaust cover with premium carbon finish design."
+    },
+    {
+      "id": 9,
+      "name": "Smart Rider Performance Watch",
+      "category": "Watch",
+      "price": 140,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1200&auto=format&fit=crop",
+      "description": "Smartwatch for riders with GPS tracking, speed monitor, and fitness analytics."
+    },
+    {
+      "id": 10,
+      "name": "MotoGP Keychain Carbon Style",
+      "category": "Keychain",
+      "price": 20,
+      "image": "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?q=80&w=1200&auto=format&fit=crop",
+      "description": "Premium carbon-style keychain inspired by MotoGP racing culture."
+    }
+  ]
+}

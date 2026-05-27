@@ -1,0 +1,75 @@
+@import "tailwindcss";
+.img-background{
+    background-image: url("../src/Image/navimg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: blur(3px); */
+    height: 100vh;
+}
+
+.blur-bg{
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/* animation image cfr at homepage */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) scaleX(-1);
+  }
+  50% {
+    transform: translateY(-20px) scaleX(-1);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+.title-animation {
+  background: linear-gradient(90deg, #ffffff, #ef4444, #991b1b, #ffffff);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 5s ease infinite, glowPulse 2s ease-in-out infinite, fadeUp 1.5s ease;
+}
+  
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    text-shadow: 0 0 10px rgba(239, 68, 68, 0.4);
+    transform: translateY(0);
+  }
+  50% {
+    text-shadow: 0 0 25px rgba(239, 68, 68, 0.9);
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* font navbar */
+#fontnavbar{
+  font-family: "Alumni Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
