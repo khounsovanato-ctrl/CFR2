@@ -1,50 +1,151 @@
-import React from 'react'
-import { FaFacebook } from "react-icons/fa";
-import { AiFillTikTok } from "react-icons/ai";
-import { FaTelegram } from "react-icons/fa";
-import { BiSolidPhoneCall } from "react-icons/bi";
-import { a } from 'framer-motion/client';
 
+import React from "react";
+import { FaFacebook, FaTiktok, FaQuora } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import { RiTelegramLine, RiMessage3Fill } from "react-icons/ri";
+import { TfiHeadphoneAlt } from "react-icons/tfi";
+import { MdOutlinePrivacyTip } from "react-icons/md";
+import { Bike, LogOut } from "lucide-react";
+import logo from '../Image/logo.png';
 
 export default function Footer() {
   return (
-    <footer className="relative bg-gradient-to-br h-[150px] from-black via-zinc-950 to-red-950 text-white border-t border-red-500/30 overflow-hidden">
-  
-  {/* background glow */}
-  <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(220,38,38,0.18),transparent_35%)]"></div>
-  <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(255,0,0,0.08),transparent_30%)]"></div>
+    <footer className="bg-black text-white border-t border-red-700/20  overflow-hidden">
 
-  <div className="relative max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between backdrop-blur-md">
-    
-    <div>
-      <h2 className="text-2xl font-extrabold tracking-[0.2em] uppercase text-red-500 text-center">
-        CFR
-      </h2>
-      <p className="text-gray-400 text-sm mt-2">
-        Cambodia Free Rider
-      </p>
-    </div>
+      {/* TOP GLOW */}
+      <div className="absolute w-72 h-72 bg-red-600/10 blur-[120px] rounded-full left-0 top-0"></div>
 
-    <p className="text-sm text-gray-500 mt-5 md:mt-0">
-      © 2026 All rights reserved.
-    </p>
-    <a href=""></a>
-    <div className="flex gap-6 mt-5 md:mt-0">
-      {[ <a href="https://www.facebook.com/share/19yhC5S1xt/?mibextid=wwXIfr"><FaFacebook /></a>, 
-      <a href=""><AiFillTikTok /></a>, 
-      <a href=""><FaTelegram /></a>, 
-      <a href=""><BiSolidPhoneCall /></a>].map((item) => (
-        <a
-          key={item}
-          href="#"
-          className="relative text-xl font-medium text-gray-300 hover:text-red-500 transition duration-300 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-red-500 after:transition-all hover:after:w-full"
-        >
-          {item}
-        </a>
-      ))}
-    </div>
+      <div className="w-[90%] mx-auto py-14 relative z-10">
 
-  </div>
-</footer>
-  )
+        {/* TOP SECTION */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+          {/* DOWNLOAD */}
+          <div className="group">
+            <div className="flex items-center gap-2 mb-5">
+              <Bike className="text-red-500" />
+              <h1 className="text-2xl font-bold">
+                Download App
+              </h1>
+            </div>
+
+            <div
+              className="
+                bg-[#111]
+                border border-red-700/20
+                rounded-2xl p-4
+                hover:border-red-500
+                hover:shadow-lg hover:shadow-red-600/20
+                transition duration-500
+              "
+            >
+              <img
+                src={logo}
+                className="
+                  w-[180px] mx-auto rounded-xl
+                  group-hover:scale-105
+                  transition duration-500
+                "
+                alt=""
+              />
+            </div>
+          </div>
+
+          {/* FOLLOW US */}
+          <div>
+            <h1 className="text-2xl font-bold mb-5">
+              Follow Us
+            </h1>
+
+            <div className="space-y-4">
+
+              <div className="flex items-center gap-4 hover:text-red-500 transition duration-300 cursor-pointer">
+                <FaFacebook className="text-2xl" />
+                <p>Facebook</p>
+              </div>
+
+              <div className="flex items-center gap-4 hover:text-red-500 transition duration-300 cursor-pointer">
+                <FaInstagram className="text-2xl" />
+                <p>Instagram</p>
+              </div>
+
+              <div className="flex items-center gap-4 hover:text-red-500 transition duration-300 cursor-pointer">
+                <FaTiktok className="text-2xl" />
+                <p>TikTok</p>
+              </div>
+
+              <div className="flex items-center gap-4 hover:text-red-500 transition duration-300 cursor-pointer">
+                <RiTelegramLine className="text-2xl" />
+                <p>Telegram</p>
+              </div>
+
+            </div>
+          </div>
+
+          {/* CUSTOMER SERVICE */}
+          <div>
+            <h1 className="text-2xl font-bold mb-5">
+              Customer Service
+            </h1>
+
+            <div className="space-y-4">
+
+              <div className="flex items-center gap-4 hover:text-red-500 transition duration-300 cursor-pointer">
+                <TfiHeadphoneAlt className="text-xl" />
+                <p>24/7 Support</p>
+              </div>
+
+              <div className="flex items-center gap-4 hover:text-red-500 transition duration-300 cursor-pointer">
+                <MdOutlinePrivacyTip className="text-2xl" />
+                <p>Privacy Policy</p>
+              </div>
+
+              <div className="flex items-center gap-4 hover:text-red-500 transition duration-300 cursor-pointer">
+                <RiMessage3Fill className="text-2xl" />
+                <p>Online Exchange</p>
+              </div>
+
+              <div className="flex items-center gap-4 hover:text-red-500 transition duration-300 cursor-pointer">
+                <FaQuora className="text-2xl" />
+                <p>FAQs</p>
+              </div>
+
+            </div>
+          </div>
+
+          {/* PAYMENT */}
+          
+        </div>
+
+        {/* DIVIDER */}
+        <div className="border-t border-red-700/20 my-10"></div>
+
+        {/* BOTTOM */}
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+
+          <p className="text-gray-400 text-sm text-center md:text-left">
+            © 2026 Cambodia Rider MotoGP Store. All rights reserved.
+          </p>
+
+          <div className="flex gap-4">
+            <div className="w-10 h-10 rounded-full bg-[#111] border border-red-700/20 flex items-center justify-center hover:bg-red-600 transition duration-300 cursor-pointer">
+              <FaFacebook />
+            </div>
+
+            <div className="w-10 h-10 rounded-full bg-[#111] border border-red-700/20 flex items-center justify-center hover:bg-red-600 transition duration-300 cursor-pointer">
+              <FaInstagram />
+            </div>
+
+            <div className="w-10 h-10 rounded-full bg-[#111] border border-red-700/20 flex items-center justify-center hover:bg-red-600 transition duration-300 cursor-pointer">
+              <FaTiktok />
+            </div>
+
+            <div className="w-10 h-10 rounded-full bg-[#111] border border-red-700/20 flex items-center justify-center hover:bg-red-600 transition duration-300 cursor-pointer">
+              <RiTelegramLine />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
 }

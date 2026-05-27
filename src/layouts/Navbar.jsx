@@ -16,8 +16,8 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Links */}
-        <div id="fontnavbar" className="hidden md:flex gap-10 lg:gap-16 justify-between items-center text-2xl">
-          <NavLink className="hover:text-red-500 transition" to="/home ">
+        <div id="fontnavbar" className="hidden md:flex gap-10 lg:gap-16 justify-between items-center text-2xl tracking-widest">
+          <NavLink className="hover:text-red-500 transition" to="/">
             HOME
           </NavLink>
           <NavLink className="hover:text-red-500 transition" to="/about">
@@ -55,12 +55,12 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden blur-bg mt-3 rounded-2xl p-5 text-white text-center border border-red-800 w-90 mx-auto absolute z-20">
-          <div className="flex flex-col gap-4">
-            <NavLink onClick={()=> setMenuOpen(false)} id="fontnavbar"  to="/home">HOME</NavLink>
-            <NavLink onClick={()=> setMenuOpen(false)} id="fontnavbar"  to="/about">ABOUT US</NavLink>
-            <NavLink onClick={()=> setMenuOpen(false)} id="fontnavbar"  to="/service">SERVICES</NavLink>
-            <NavLink onClick={()=> setMenuOpen(false)} id="fontnavbar"  to="/travel">TRAVELS</NavLink>
-            <NavLink onClick={()=> setMenuOpen(false)} id="fontnavbar"  to="/market">STORE</NavLink>
+          <div className="flex flex-col gap-4 tracking-[]">
+            <NavLink onClick={()=> setMenuOpen(false)} id="fontnavbar" className={`tracking-wide text-2xl`} to="/">HOME</NavLink>
+            <NavLink onClick={()=> setMenuOpen(false)} id="fontnavbar" className={`tracking-wide text-2xl`} to="/about">ABOUT US</NavLink>
+            <NavLink onClick={()=> setMenuOpen(false)} id="fontnavbar" className={`tracking-wide text-2xl`} to="/service">SERVICES</NavLink>
+            <NavLink onClick={()=> setMenuOpen(false)} id="fontnavbar" className={`tracking-wide text-2xl`} to="/travel">TRAVELS</NavLink>
+            <NavLink onClick={()=> setMenuOpen(false)} id="fontnavbar" className={`tracking-wide text-2xl`} to="/market">STORE</NavLink>
 
             <div className="flex flex-col gap-2 pt-3">
               <button onClick={()=> setMenuOpen(false)} className="py-2 rounded-md bg-red-500"><NavLink  to="/login">Register</NavLink></button>

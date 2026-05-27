@@ -11,7 +11,7 @@ export default function Routeweb() {
   return (
     <div>
         <Routes>
-            <Route path='/home' element={<Home/>}></Route>
+            <Route path='/' element={<Home/>}></Route>
             <Route path='/about' element={<Aboute/>}></Route>
             <Route path='/service' element={<Sevice/>}></Route>
             <Route path='/travel' element={<Travel/>}></Route>
