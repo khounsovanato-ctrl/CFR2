@@ -54,7 +54,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden blur-bg mt-3 rounded-2xl p-5 text-white text-center border border-red-800 w-90 mx-auto absolute z-20">
+        <div className="md:hidden blur-bg mt-3 rounded-2xl p-5 text-white text-center border border-red-800 w-full max-w-sm mx-auto absolute z-20">
           <div className="flex flex-col gap-4 tracking-[]">
             <NavLink onClick={()=> setMenuOpen(false)} id="fontnavbar" className={`tracking-wide text-2xl`} to="/">HOME</NavLink>
             <NavLink onClick={()=> setMenuOpen(false)} id="fontnavbar" className={`tracking-wide text-2xl`} to="/about">ABOUT US</NavLink>
