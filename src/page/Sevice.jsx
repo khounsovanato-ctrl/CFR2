@@ -40,8 +40,8 @@ export default function Sevice() {
   ];
 
   return (
-    <div className="w-full bg-black min-h-screen overflow-hidden py-10">
-        <div className="text-center mb-20">
+    <div className="w-full bg-black min-h-screen overflow-hidden py-10 ">
+        <div className="text-center mb-20 pt-13">
         <h1 className="text-5xl md:text-7xl font-extrabold text-white">
           SERVICES<span className="text-red-600">BIKE</span>
         </h1>

@@ -7,7 +7,7 @@ export default function AuthPage() {
   const [isLogin, setIsLogin] = useState(true);
 
   return (
-    <div className="bg-black flex items-center justify-center px-4 sm:px-6 lg:px-8 py-5 overflow-hidden relative">
+    <div className="bg-black flex items-center justify-center pt-25 px-4 sm:px-6 lg:px-8 py-5 overflow-hidden relative">
       
       {/* Animated Background Glow */}
       <motion.div
@@ -114,9 +114,6 @@ export default function AuthPage() {
               {isLogin ? "Login" : "Register"}
             </motion.h1>
 
-            <p className="text-gray-400 mt-2 text-sm sm:text-base">
-              Premium authentication UI
-            </p>
           </div>
 
           {/* Toggle Buttons */}

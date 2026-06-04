@@ -11,7 +11,7 @@ import {
 
 export default function AboutUs() {
   return (
-    <section className="bg-black text-white overflow-hidden">
+    <section className="bg-black text-white overflow-hidden pt-10">
       {/* HERO SECTION */}
       <div className="relative w-full min-h-screen flex items-center">
         {/* Background Glow */}

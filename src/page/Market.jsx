@@ -31,7 +31,7 @@ export default function Market() {
     <div className="min-h-screen bg-black text-white p-6 sm:p-10">
 
       {/* HEADER */}
-      <div className="flex justify-between items-center mb-6">
+      <div className="flex justify-between items-center mb-6 pt-25">
         <h1 className="text-2xl font-bold text-red-500">
           MotoGP Market
         </h1>

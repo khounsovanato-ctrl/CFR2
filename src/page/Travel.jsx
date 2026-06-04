@@ -88,7 +88,7 @@ export default function Travel() {
     <div className="bg-black min-h-screen overflow-hidden py-15">
 
       {/* title */}
-      <div className="text-center mb-20">
+      <div className="text-center mb-20 pt-12">
         <h1 className="text-5xl md:text-7xl font-extrabold text-white">
           Holiday <span className="text-red-600">Trips</span>
         </h1>

@@ -27,8 +27,8 @@ export default function Home() {
       </div>
 
       {/* homepage image */}
-      <div className="w-full md:w-1/2 flex justify-center">
-        <img src={homeimage}alt="" className="`w-[220px]` `sm:w-[300px]` `md:w-[380px]` `lg:w-[450px]` scale-x-[-1] animate-float hover:scale-110 duration-500 cursor-pointer"/>
+      <div className="w-full md:w-1/2 pt-22 flex justify-center">
+        <img src={homeimage}alt="" className=" relative`w-[220px]` `sm:w-[300px]` `md:w-[380px]` `lg:w-[450px]` scale-x-[-1] animate-float hover:scale-110 duration-500 cursor-pointer"/>
       </div>
       
     </div>

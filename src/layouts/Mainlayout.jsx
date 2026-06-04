@@ -6,7 +6,7 @@ import Footer from "./Footer";
 export default function Mainlayout() {
   return (
     <div>
-      <div className="pt-5"><Navbar /></div>
+      <div className=" w-full fixed z-50"><Navbar /></div>
       <div><Routeweb/></div>
       <div><Footer/></div>
     </div>
