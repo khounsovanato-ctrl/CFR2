@@ -60,8 +60,8 @@ export default function Footer() {
             <div className="space-y-4">
 
               <div className="flex items-center gap-4 hover:text-red-500 transition duration-300 cursor-pointer">
-                <FaFacebook className="text-2xl" />
-                <p>Facebook</p>
+               <a href="https://www.facebook.com/share/1BHZs1titd/?mibextid=wwXIfr"><FaFacebook className="text-2xl" /></a> 
+                <a href="https://www.facebook.com/share/1BHZs1titd/?mibextid=wwXIfr"><p>Facebook</p></a> 
               </div>
 
               <div className="flex items-center gap-4 hover:text-red-500 transition duration-300 cursor-pointer">
@@ -129,7 +129,7 @@ export default function Footer() {
 
           <div className="flex gap-4">
             <div className="w-10 h-10 rounded-full bg-[#111] border border-red-700/20 flex items-center justify-center hover:bg-red-600 transition duration-300 cursor-pointer">
-              <FaFacebook />
+              <a href="https://www.facebook.com/share/1BHZs1titd/?mibextid=wwXIfr"><FaFacebook /></a>
             </div>
 
             <div className="w-10 h-10 rounded-full bg-[#111] border border-red-700/20 flex items-center justify-center hover:bg-red-600 transition duration-300 cursor-pointer">
