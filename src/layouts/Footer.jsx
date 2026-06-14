@@ -123,9 +123,9 @@ export default function Footer() {
         {/* BOTTOM */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
 
-          {/* <p className="text-gray-400 text-sm text-center md:text-left">
+          <p className="text-gray-400 text-sm text-center md:text-left">
             © 2026 Cambodia Free Rider. All rights reserved.
-          </p> */}
+          </p>
 
           <div className="flex gap-4">
             <div className="w-10 h-10 rounded-full bg-[#111] border border-red-700/20 flex items-center justify-center hover:bg-red-600 transition duration-300 cursor-pointer">
