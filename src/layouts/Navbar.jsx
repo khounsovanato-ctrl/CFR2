@@ -9,6 +9,7 @@ import { IoStorefrontSharp } from "react-icons/io5";
 import { IoMdContacts } from "react-icons/io";
 import { FaTools } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
+import { FaTurnUp } from "react-icons/fa6";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false); 
@@ -177,18 +178,18 @@ export default function Navbar() {
         <div className="md:hidden blur-bg mt-3 rounded-2xl p-5  text-white text-center border border-red-800 w-90 max-w-sm absolute z-10">
           <div className="flex flex-col gap-4 tracking-[]">
             <div className="flex flex-col gap-2">
-              <button
+              {/* <button
                 onClick={() => setMenuOpen(false)}
                 className="py-2 rounded-md bg-red-500"
               >
                 <NavLink to="/login">Register</NavLink>
               </button>
               <button
-                onClick={() => setMenuOpen(false)}
+                onClick={() => setMenuOpen(true)}
                 className="py-2 rounded-md border border-rose-500/40"
               >
                 <NavLink to="/login">Login</NavLink>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
